@@ -41,7 +41,8 @@ The system follows a modular AI architecture:
    pip install -r requirements.txt
 
 4. Configure Environment Variables:
-   Create a .env file in the root directory and add your OpenAI API Key:
+   * Create a .env file in the root directory and add your OpenAI API Key:
+   ```bash 
    OPENAI_API_KEY=your_sk_key_here
 
 ## 🏃 Running the Application
