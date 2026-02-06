@@ -18,7 +18,7 @@ The system follows a modular AI architecture:
 3.  **Reasoning Layer:** OpenAI GPT-4o via LangChain interprets trends to suggest medical protocols.
 4.  **UI Layer:** Streamlit dashboard for clinical visualization.
 
-
+![Architecture Diagram](architecture_diagram.png)
 
 ## 📋 Prerequisites
 * Python 3.10+
@@ -31,28 +31,33 @@ The system follows a modular AI architecture:
    git clone <your-repo-link>
    cd <repo-folder>
 
-### Create and activate a virtual environment:
-```bash
-python -m venv .venv
-source .venv/bin/activate  
+2. Create and activate a virtual environment:
+   ```bash 
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 
-### On Windows use `.venv\Scripts\activate`
+3. Install dependencies:
+   pip install -r requirements.txt
 
-### Install dependencies:
-Bash
-pip install -r requirements.txt
-
-### Configure Environment Variables:
-Create a .env file in the root directory and add your OpenAI API Key:
-OPENAI_API_KEY=your_sk_key_here
+4. Configure Environment Variables:
+   Create a .env file in the root directory and add your OpenAI API Key:
+   OPENAI_API_KEY=your_sk_key_here
 
 🏃 Running the Application
-Bash
-streamlit run patient_monitor.py
+   streamlit run patient_monitor.py
 
 🧪 Simulated Scenarios
-Patient 1 (Sepsis): Presents with rising temperature and dropping blood pressure.
+. Patient 1 (Sepsis): Presents with rising temperature and dropping blood pressure.
 
-Patient 2 (Arrhythmia): Simulates a sudden V-Tach episode with extreme tachycardia.
+. Patient 2 (Arrhythmia): Simulates a sudden V-Tach episode with extreme tachycardia.
 
-Patient 3 (Respiratory Failure): Shows a progressive decline in oxygen saturation (SpO2).
+ .Patient 3 (Respiratory Failure): Shows a progressive decline in oxygen saturation (SpO2).
+
+📊 AI Observability (Telemetry)
+The application tracks the following metrics for every agentic reasoning call:
+
+ .Model: GPT-4o
+
+ .Avg Latency: 2.5s - 4.0s
+
+ .Avg Token Usage: ~500 tokens per analysis
