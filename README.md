@@ -37,6 +37,7 @@ The system follows a modular AI architecture:
    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 
 3. Install dependencies:
+   ```bash 
    pip install -r requirements.txt
 
 4. Configure Environment Variables:
@@ -44,6 +45,7 @@ The system follows a modular AI architecture:
    OPENAI_API_KEY=your_sk_key_here
 
 ## 🏃 Running the Application
+   ```bash 
    streamlit run patient_monitor.py
 
 ## 🧪 Simulated Scenarios
