@@ -48,7 +48,7 @@ The system follows a modular AI architecture:
 ## 🏃 Running the Application
    ```bash 
    streamlit run patient_monitor.py
-
+```
 ## 🧪 Simulated Scenarios
 * Patient 1 (Sepsis): Presents with rising temperature and dropping blood pressure.
 * Patient 2 (Arrhythmia): Simulates a sudden V-Tach episode with extreme tachycardia.
