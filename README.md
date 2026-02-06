@@ -56,6 +56,6 @@ The system follows a modular AI architecture:
 ## 📊 AI Observability (Telemetry)
 The application tracks the following metrics for every agentic reasoning call:
 
- .Model: GPT-4o
- .Avg Latency: 2.5s - 4.0s
- .Avg Token Usage: ~500 tokens per analysis
+ * Model: GPT-4o
+ * Avg Latency: 2.5s - 4.0s
+ * Avg Token Usage: ~500 tokens per analysis
