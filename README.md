@@ -43,21 +43,19 @@ The system follows a modular AI architecture:
    Create a .env file in the root directory and add your OpenAI API Key:
    OPENAI_API_KEY=your_sk_key_here
 
-🏃 Running the Application
+## 🏃 Running the Application
    streamlit run patient_monitor.py
 
-🧪 Simulated Scenarios
+## 🧪 Simulated Scenarios
 . Patient 1 (Sepsis): Presents with rising temperature and dropping blood pressure.
 
 . Patient 2 (Arrhythmia): Simulates a sudden V-Tach episode with extreme tachycardia.
 
  .Patient 3 (Respiratory Failure): Shows a progressive decline in oxygen saturation (SpO2).
 
-📊 AI Observability (Telemetry)
+## 📊 AI Observability (Telemetry)
 The application tracks the following metrics for every agentic reasoning call:
 
  .Model: GPT-4o
-
  .Avg Latency: 2.5s - 4.0s
-
  .Avg Token Usage: ~500 tokens per analysis
