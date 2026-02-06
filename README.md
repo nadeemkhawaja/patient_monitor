@@ -32,11 +32,11 @@ The system follows a modular AI architecture:
    cd <repo-folder>
 
 ### Create and activate a virtual environment:
-Bash
+```bash
 python -m venv .venv
 source .venv/bin/activate  
 
-# On Windows use `.venv\Scripts\activate`
+### On Windows use `.venv\Scripts\activate`
 
 ### Install dependencies:
 Bash
