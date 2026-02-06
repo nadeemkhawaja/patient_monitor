@@ -47,11 +47,9 @@ The system follows a modular AI architecture:
    streamlit run patient_monitor.py
 
 ## 🧪 Simulated Scenarios
-. Patient 1 (Sepsis): Presents with rising temperature and dropping blood pressure.
-
-. Patient 2 (Arrhythmia): Simulates a sudden V-Tach episode with extreme tachycardia.
-
- .Patient 3 (Respiratory Failure): Shows a progressive decline in oxygen saturation (SpO2).
+* Patient 1 (Sepsis): Presents with rising temperature and dropping blood pressure.
+* Patient 2 (Arrhythmia): Simulates a sudden V-Tach episode with extreme tachycardia.
+* Patient 3 (Respiratory Failure): Shows a progressive decline in oxygen saturation (SpO2).
 
 ## 📊 AI Observability (Telemetry)
 The application tracks the following metrics for every agentic reasoning call:
